@@ -13,7 +13,7 @@
         "banOnInvalidShares": false
     },
     "notifications": {
-        "enabled": true,
+        "enabled": false,
         "email": {
             "host": "smtp.example.com",
             "port": 587,
@@ -45,7 +45,7 @@
     "pools": [{
       "id": "xmr1",
       "enabled": true,
-      "coin": "monero",
+      "coin": "dragonx",
       "randomXRealm": "xmr1",
       "address": "43g9avHw8WYHnq749LU1Nw1BZ8FCwS2B7GLoW4vif7cPjJB7e9f6WgU8ptDFM7kyNS9kz1zy334dAYFKgP2KJU8vMoZ3hYD",
       "rewardRecipients": [
@@ -117,7 +117,7 @@
       ],
       "paymentProcessing": {
         "enabled": true,
-        "minimumPayment": 0.25,
+        "minimumPayment": 3,
         "minimumPaymentToPaymentId": 1.0,
         "payoutScheme": "PPLNS",
         "payoutSchemeConfig": {
